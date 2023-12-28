@@ -9,32 +9,32 @@ const Top = () => {
     let ctx = gsap.context(() => {
       const tl = gsap.timeline();
 
-      // gsap.to(
-      //   "#clouds",
-      //   {
-      //     top: -200,
-      //     scrollTrigger: {
-      //       trigger: "#clouds",
-      //       start: "top top",
-      //       scrub: true,
-      //       // markers: true,
-      //       toggleActions: "restart none none none",
-      //     },
-      //   },
-      // )
-      //   gsap.to(
-      //     "#mountain",
-      //     {
-      //         scrollTrigger: {
-      //             trigger: "#mountain",
-      //             end:"top top",
-      //             start: "top 35%",
-      //             scrub: true,
-      //             markers: true,
-      //             toggleActions: "restart none none none",
-      //           },
-      //           top: 100,
-      //     },
+      gsap.to(
+        "#clouds",
+        {
+          top: -200,
+          scrollTrigger: {
+            trigger: "#clouds",
+            start: "top top",
+            scrub: true,
+            // markers: true,
+            toggleActions: "restart none none none",
+          },
+        },
+      )
+        gsap.to(
+          "#mountain",
+          {
+              scrollTrigger: {
+                  trigger: "#mountain",
+                  end:"top top",
+                  start: "top 35%",
+                  scrub: true,
+                  markers: true,
+                  toggleActions: "restart none none none",
+                },
+                top: 100,
+          },
           
       //   )
       //   gsap.to(
