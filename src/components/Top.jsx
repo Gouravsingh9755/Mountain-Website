@@ -33,7 +33,7 @@ const Top = () => {
                   markers: true,
                   toggleActions: "restart none none none",
                 },
-                top: 100,
+                top: 145,
           },
           
         )
