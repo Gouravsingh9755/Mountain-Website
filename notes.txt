@@ -1,0 +1,31 @@
+ <nav className="h-14 w-screen  flex justify-between  px-20 absolute  selection:text-yellow-200">
+          <h1 className="font-bold text-4xl text-white">MNTN</h1>
+          <ul className="text-white flex justify-between  gap-10 mt-3 ">
+            <h3 className="H3 font-bold text-xl">Equipment</h3>
+            <h3 className="h3 font-bold text-xl">About us</h3>
+            <h3 className="h3 font-bold text-xl">Blog</h3>
+          </ul>
+          <h3 className="h3 font-bold text-xl text-white mt-2 flex gap-3 ">
+            {" "}
+            <i class="ri-map-pin-user-line"></i> Account
+          </h3>
+        </nav>
+
+
+
+
+        
+
+
+
+          gsap.fromTo(el, { top:0 }, {
+            duration:2,
+            top:"-20px",  scrollTrigger: {
+                trigger: el,
+                start: "top top",
+                scrub:true ,
+                markers:true,
+                toggleActions: "restart none none none"
+            }
+        
+    })
