@@ -9,7 +9,6 @@ const Top = () => {
     let ctx = gsap.context(() => {
       const tl = gsap.timeline();
 
-<<<<<<< HEAD
       // gsap.to(
       //   "#clouds",
       //   {
@@ -36,61 +35,6 @@ const Top = () => {
       //           },
       //           top: 100,
       //     },
-||||||| parent of 86fc083 (title gsap)
-      gsap.to(
-        "#clouds",
-        {
-          top: -200,
-          scrollTrigger: {
-            trigger: "#clouds",
-            start: "top top",
-            scrub: true,
-            // markers: true,
-            toggleActions: "restart none none none",
-          },
-        },
-      )
-        gsap.to(
-          "#mountain",
-          {
-              scrollTrigger: {
-                  trigger: "#mountain",
-                  end:"top top",
-                  start: "top 35%",
-                  scrub: true,
-                  markers: true,
-                  toggleActions: "restart none none none",
-                },
-                top: 145,
-          },
-=======
-      gsap.to(
-        "#clouds",
-        {
-          top: -200,
-          scrollTrigger: {
-            trigger: "#clouds",
-            start: "top top",
-            scrub: true,
-            // markers: true,
-            toggleActions: "restart none none none",
-          },
-        },
-      )
-        gsap.to(
-          "#mountain",
-          {
-              scrollTrigger: {
-                  trigger: "#mountain",
-                  end:"top top",
-                  start: "top 35%",
-                  scrub: true,
-                  // markers: true,
-                  toggleActions: "restart none none none",
-                },
-                top: 145,
-          },
->>>>>>> 86fc083 (title gsap)
           
       //   )
       //   gsap.to(
