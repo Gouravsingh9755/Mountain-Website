@@ -9,6 +9,9 @@ export default {
         colors: {
           custom: '#85A0A6',
         },
+        fontFamily: {
+          popins: ['Poppins', 'sans-serif'],
+        },
       },
     },
   plugins: [],
