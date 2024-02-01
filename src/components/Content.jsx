@@ -10,6 +10,8 @@ const Content = () => {
       style={mystyle}
       className="Content-container relative h-[500vh] w-full z-50   flex  flex-col  gap-40 item-center justify-center font-popins selection:text-yellow-500 overflow-x-hidden"
     >
+    
+
       <div className="content  h-[120vh] w-[100vw]  flex  justify-center gap-24 contBg ">
         <div className="lcontent    h-[120vh] w-[45%] ">
           <div className="ltop h-[25%] w-full flex flex-col justify-end">
