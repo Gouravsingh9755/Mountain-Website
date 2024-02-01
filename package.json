@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "gsap": "^3.12.4",
+    "locomotive-scroll": "^4.1.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-locomotive-scroll": "^0.2.2",
+    "tslib": "^2.6.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

@@ -2,14 +2,15 @@ import React from "react";
 
 const Content = () => {
   const mystyle = {
-    // backgroundImage: 'linear-gradient(180deg, rgba(11, 29, 38, 0), #0b1d26 20%'
+    backgroundImage: 'linear-gradient(180deg, rgba(11, 29, 38, 0), #0b1d26 20%'
   };
+
   return (
-    <div
+    <div data-scroll-section data-scroll
       style={mystyle}
-      className="Content-container relative h-[500vh] w-full   bg-slate-700   flex  flex-col  gap-40 item-center justify-center font-popins selection:text-yellow-500 overflow-x-hidden"
+      className="Content-container relative h-[500vh] w-full z-50   flex  flex-col  gap-40 item-center justify-center font-popins selection:text-yellow-500 overflow-x-hidden"
     >
-      <div className="content  h-[120vh] w-[100vw]  flex  justify-center gap-24 bg-black  ">
+      <div className="content  h-[120vh] w-[100vw]  flex  justify-center gap-24 contBg ">
         <div className="lcontent    h-[120vh] w-[45%] ">
           <div className="ltop h-[25%] w-full flex flex-col justify-end">
             <h3 className="font-black text-xl font-sans tracking-[3px] text-yellow-300">
@@ -35,7 +36,7 @@ const Content = () => {
           <div className="lbottom h-[10%] w-full flex  text-yellow-300 ">
             <h3 className=" font-bold text-2xl font-sans">read more </h3>{" "}
             <span className="text-3xl font-bold pt-[2px] px-3">
-              <i class="ri-arrow-right-line"></i>
+              <i className="ri-arrow-right-line"></i>
             </span>
           </div>
         </div>
@@ -49,7 +50,7 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="content  h-[130vh] w-[100vw]  flex flex-row-reverse justify-center gap-24 bg-black  ">
+      <div className="content  h-[130vh] w-[100vw]  flex flex-row-reverse justify-center gap-24   ">
         <div className="lcontent    h-[120vh] w-[45%] flex flex-col gap-20 ">
           <div className="ltop h-[25%] w-full flex flex-col justify-end">
             <h3 className="font-black text-xl font-sans tracking-[3px] text-yellow-300">
@@ -75,7 +76,7 @@ const Content = () => {
           <div className="lbottom h-[10%] w-full flex  text-yellow-300 ">
             <h3 className=" font-bold text-2xl font-sans">read more </h3>{" "}
             <span className="text-3xl font-bold pt-[2px] px-3">
-              <i class="ri-arrow-right-line"></i>
+              <i className="ri-arrow-right-line"></i>
             </span>
           </div>
         </div>
@@ -89,7 +90,7 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="content  h-[130vh] w-[100vw] flex justify-center gap-24 bg-black  ">
+      <div className="content  h-[130vh] w-[100vw] flex justify-center gap-24   ">
         <div className="lcontent    h-[120vh] w-[45%] flex flex-col gap-14 ">
           <div className="ltop h-[25%] w-full flex flex-col justify-end">
             <h3 className="font-black text-xl font-sans tracking-[3px] text-yellow-300">
@@ -110,7 +111,7 @@ const Content = () => {
           <div className="lbottom h-[10%] w-full flex  text-yellow-300 ">
             <h3 className=" font-bold text-2xl font-sans">read more </h3>{" "}
             <span className="text-3xl font-bold pt-[2px] px-3">
-              <i class="ri-arrow-right-line"></i>
+              <i className="ri-arrow-right-line"></i>
             </span>
           </div>
         </div>
