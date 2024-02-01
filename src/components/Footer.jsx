@@ -1,8 +1,11 @@
 import React from 'react'
 
 const Footer = () => {
+  const mystyle = {
+    backgroundImage: 'linear-gradient(180deg, rgba(11, 29, 38, 0), #0b1d26 0%'
+  };
   return (
-    <div className='Footer-container  h-[100vh]  w-full  bg-slate-900   flex selection:text-yellow-500 '>
+    <div data-scroll-section data-scroll style={mystyle} className='Footer-container  h-[100vh] -mt-1  w-full   flex selection:text-yellow-500 '>
 
       <div className="L-footer h-full w-[50vw]  flex  items-center  justify-center">
 

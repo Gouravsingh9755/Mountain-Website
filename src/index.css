@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 
+.mainn{
+    width: 100vw;
+    min-height: 100vh;
+
+}
 
 .contBg{
-    background-image: linear-gradient(180deg, rgba(11, 29, 38, 0), #0b1d26 20%);;
+    background-image: linear-gradient(180deg, rgba(11, 29, 38, 0), #0b1d26 20%);
 }
