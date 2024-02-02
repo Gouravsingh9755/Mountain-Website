@@ -7,8 +7,9 @@ const Loading = () => {
     useEffect(() => {
     
         let ctx = gsap.context(() => {
+          
 
-            gsap.to(".loading", { display:"none",pointerEvents:"all",delay :2, duration: .4 });
+            gsap.to(".loading", { display:"none",pointerEvents:"all",delay :0, duration: .4 });
         
             
         

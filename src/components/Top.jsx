@@ -26,13 +26,29 @@ const Top = () => {
               style={mystyle}
               className="overlay z-20 relative top-0 left-0 right-0 bottom-0 h-[150%] w-[100%] opacity-[0.6] "
             >
-              
-              <h1  id="heading"
+
+             <div id="hero_boxheading"
               data-scroll
               data-scroll-speed={-9.5}
-              
-               className='font-serif text-7xl absolute z-20 top-[60%]  left-60  text-white selection:text-yellow-500'>Be Prepared For The <br /> Mountains And Beyond!</h1>
+             
+             className="hero-content h-[52vh] w-[100vw] absolute top-0  left-0 z-50">
 
+              <h3 id="up_heading"
+              className="font-black text-xl font-sans tracking-[3px] absolute z-30 top-[20%]  left-60   text-yellow-300 selection:text-yellow-500">
+              ------- A  HIKING  GUIDE
+            </h3>
+              
+              <h1  id="heading"
+             
+               className='font-serif text-7xl absolute z-30 top-[36%]  left-60  text-white selection:text-yellow-500'>Be Prepared For The <br /> Mountains And Beyond!</h1>
+
+              <h3 id="up_heading"
+              className="font-black text-[14px] font-sans absolute z-30 top-[85%]   left-60   text-white selection:text-yellow-500"> Scroll down
+            </h3>
+
+            <img className="downarrow  absolute z-30 top-[92%]   left-[19%] h-[5vh] " src="https://media0.giphy.com/media/a2e4I5koserzi0buol/giphy.webp" alt="" />
+
+</div>
 
 
             </div>
