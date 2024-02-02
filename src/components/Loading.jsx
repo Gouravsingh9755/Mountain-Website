@@ -16,7 +16,7 @@ const Loading = () => {
         let ctx = gsap.context(() => {
           
 
-            gsap.to(".loading", { display:"none",delay :2, duration: .4 });
+            gsap.to(".loading", { display:"none",delay :1, duration: .4 });
 
         
             
