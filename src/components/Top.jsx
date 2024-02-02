@@ -21,11 +21,20 @@ const Top = () => {
                 </h3>
               </nav>
 
-              <div id="hero_boxheading"
-              data-scroll
-              data-scroll-speed={-9.5}
+            
+
+
+          <div className="imgbox h-[100vh] relative w-full">
+            <div
+              style={mystyle}
+              className="overlay z-20   relative top-0 left-0 right-0 bottom-0 h-[150%] w-[100%] opacity-[0.6] "
+            >
+
+         <div id="hero_boxheading"
+             data-scroll
+             data-scroll-speed={-9.5}
              
-             className="hero-content bg-red-800 h-[52vh] w-[100vw] absolute xl:top-[0%] 2xl:top-[-30%] left-0 z-[20]">
+             className="hero-content  h-[52vh] w-[100vw] absolute top-[0%] left-0 z-[20]">
 
               <h3 id="up_heading"
               className="font-black text-xl font-sans tracking-[3px] absolute z-30 top-[20%]  left-60   text-yellow-300 selection:text-yellow-500">
@@ -43,13 +52,6 @@ const Top = () => {
             <img className="downarrow  absolute z-30 top-[92%]   left-[19%] h-[5vh] " src="https://media0.giphy.com/media/a2e4I5koserzi0buol/giphy.webp" alt="" />
 
             </div>
-
-
-          <div className="imgbox h-[100vh] relative w-full">
-            <div
-              style={mystyle}
-              className="overlay z-20  bg-green-500 relative top-0 left-0 right-0 bottom-0 h-[150%] w-[100%] opacity-[0.6] "
-            >
 
           
 
