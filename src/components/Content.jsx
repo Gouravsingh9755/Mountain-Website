@@ -8,7 +8,7 @@ const Content = () => {
   return (
     <div data-scroll-section data-scroll
       style={mystyle}
-      className="Content-container relative h-[500vh] w-full z-50   flex  flex-col  gap-40 item-center justify-center font-popins selection:text-yellow-500 overflow-x-hidden"
+      className="Content-container relative h-[450vh] w-full z-50   flex  flex-col  gap-40 item-center justify-center font-popins selection:text-yellow-500 overflow-x-hidden"
     >
     
 
